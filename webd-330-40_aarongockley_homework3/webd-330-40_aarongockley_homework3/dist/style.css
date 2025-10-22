@@ -1,0 +1,16 @@
+body {
+  background-color: #b0d0ff;
+}
+
+img {
+  text-align: center;
+}
+
+.container {
+  background-color: #FFF;
+  width: 50%;
+  height: 500px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border-radius: 20px;
+}

@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+body {
+    background-color: #FFF;
+    font-family: 'Lato';
+    margin: 0;
+    padding: 0;}
+
+#page {
+    background-color: #d0e9c6;
+    margin: 0 auto 0 auto;}
+/* Responsive page rules at bottom of style sheet */
+
+
+ul {
+    background-color: #5B6057;
+    border:none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+li {
+    background-color: #5B6057;
+    color: #fff;
+    border-top: 1px solid rgba(96, 94, 91, 0.82);
+    border-bottom: 1px solid #603950;
+    font-size: 22px;
+    letter-spacing: .05em;
+    list-style-type: none;
+    text-shadow: 2px 2px 1px #2f4a60;
+    height: 50px;
+    padding-left: 1em;
+    padding-top: 10px;
+
+
+}
+
+/*li:hover {*/
+    /*background-color: #46494C;*/
+/*}*/
+
+.red {
+    background-color: #d74753;
+    color: #fff;
+    text-shadow: 2px 2px 1px #7e2a31;
+    border-top: 1px solid #d7767c;
+    border-bottom: 1px solid #914141;}
+
+.blue {
+    background-color: #0097C0;
+    color: #fff;
+    text-shadow: 2px 2px 1px #3b6a5e;
+    border-top: 1px solid #7ee0c9;
+    border-bottom: 1px solid #3b6a5e;}
+
+.grey {
+    background-color: #999;
+    color: #fff;
+    background-position: center, right;
+    background-repeat: no-repeat;
+    border-top: 1px solid #666;
+    text-shadow: 2px 2px 1px #333;}
+
+.col-centered{
+    float: none;
+    margin: 10px auto 0;
+    width: 300px;
+
+}
+
+input[type=checkbox].chx {
+    -webkit-appearance: none;
+    padding: 9px;
+    margin-right: 20px;
+    background-color: #FFFFFF;
+    outline: 0;
+    margin-top: 5px;
+    position: relative;
+    top: 4px;
+}
+
+input[type=checkbox]:checked{
+    color: #99a1a7;
+    background-color: #d4f79a;
+    outline: 0;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+    background-position: center, right;
+    background-repeat: no-repeat;
+    padding-right: 36px;}
+
+p {
+    color: #403c3b;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto 20px auto;
+    min-width: 20%;
+    max-width: 80%; }
+
+#scriptResults {
+    padding-bottom: 10px;}
+
+/* Small screen - acts like the app would */
+@media only screen and (max-width: 500px) {
+    body {
+        /*background-color: #584f4d;*/
+    }
+    #page {
+        max-width: 480px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+    #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+    }
+}
+/* Larger screens act like a demo for the app */
+@media only screen and (min-width: 960px) {
+    #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+    }
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    h1{
+        background-size: 72px 72px;
+    }
+}
